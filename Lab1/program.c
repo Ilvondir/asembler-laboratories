@@ -23,8 +23,7 @@ void size2() {
 
 void bits() {
 	int bits = sizeof(void*) * 8;
-    
-    printf("Ten program zostal skompilowany w %d bitach.\n", bits);
+	printf("Ten program zostal skompilowany w %d bitach.\n", bits);
 }
 
 void bytes() {
