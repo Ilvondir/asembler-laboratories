@@ -58,8 +58,8 @@ void endian() {
 
 void endian2() {
 	int i = 1;
-    char *c = (char*)&i;
-    if (*c == 1) printf("little-endian architecture");
+	char *c = (char*)&i;
+	if (*c == 1) printf("little-endian architecture");
 	else printf("big-endian architecture");
 }
 
